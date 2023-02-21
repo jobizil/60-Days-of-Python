@@ -15,7 +15,7 @@ def add(x, y):
     return x + y
 
 
-# print(reduce(add, [1, 2, 3, 4, 5]))
+print(reduce(add, [1, 2, 3, 4, 5]))
 
 
 # Example 2 - Using reduce to concatenate all the elements in a list
@@ -23,7 +23,7 @@ def concat(x, y):
     return x + y
 
 
-# print(reduce(concat, ['a', 'b', 'c', 'd', 'e']))
+print(reduce(concat, ['a', 'b', 'c', 'd', 'e']))
 
 
 # Example 3 - Using reduce to find the maximum element in a list

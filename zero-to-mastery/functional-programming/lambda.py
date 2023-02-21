@@ -1,4 +1,5 @@
-'''
+"""
+
 Lambda functions are annonymous functions that are only used once within the code. They are also called as anonymous functions because they are not declared in the standard manner by using the def keyword. You can use the lambda keyword to create small anonymous functions.
 
 Syntax
@@ -9,9 +10,8 @@ The expression is executed and the result is returned:
 Lambda functions are annonymous functions that are only used once within the code.
 
 Lambda can be used with built-in functions like filter(), map() and reduce().
-'''
+"""
 
-from functools import reduce
 # Example
 test_scores = [73, 20, 65, 19, 76, 100, 88]
 exam_scores = [12, 4, 9, 14, 16, 19]
